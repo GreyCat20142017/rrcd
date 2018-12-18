@@ -1,14 +1,152 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.mdc-toolbar__row {
+  padding: 0 28px;
+}
+
+.mdc-toolbar__section {
+  align-items: center;
+}
+
+.mdc-tab-bar {
+  margin: 0;
+  padding-top: 14px;
+  display: flex;
+}
+
+.mdc-tab {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mdc-tab--active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.content {
+  display: flex;
+}
+
+.content main:first-child {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.mdc-card {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.mdc-card img {
+  max-width: 300px;
+  height: 400px;
+}
+
+.mdc-card__primary {
+  padding: 0 1em;
+  text-align: left;
+}
+
+.mdc-card__horizontal-block {
+  padding: 0;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.mdc-card__primary .mdc-card__title--large {
+  margin-bottom: .5em;
+  padding-top: 0;
+}
+
+.mdc-card__subtitle {
+  margin-bottom: .5em;
+}
+
+#login {
+  margin: 3rem auto;
+}
+
+#login form .mdc-textfield,
+#login form .mdc-button {
+  width: 100%;
+  display: block;
+}
+
+#login form .mdc-textfield {
+  margin-bottom: 1rem;
+}
+
+/* Book */
+#book .mdc-card {
+  margin: 16px;
+}
+
+/* Not Found */
+#not-found {
+  text-align: center;
+  margin-top: 3em;
+}
+
+#not-found .material-icons {
+  font-size: 4rem;
+}
+
+
+.mdc-permanent-drawer {
+  width: auto;
+  border-right: 1px solid lightgrey;
+}
+
+.mdc-list-item__start-detail {
+  display: block;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.mdc-list-item-span {
+  display: none;
+}
+
+.mdc-textfield__input {
+  border: none;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.5);
+  padding-top: 5px;
+}
+
+.mdc-textfield__input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.counter {
+  width: 200px;
+  margin: 40px auto;
+}
+
+.counter__value {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+.mdc-permanent-drawer {
+   width: 20%;
+}
+  .mdc-list-item-span {
+    display: inline;
+  }
+}
+
+ @media (min-width: 1200px) {
 }
