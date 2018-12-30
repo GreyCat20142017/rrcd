@@ -9,6 +9,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: 100%;
+  fonf-family: 'Arial', sans-serif;
 }
 
 .mdc-toolbar__row {
@@ -130,14 +131,85 @@ body {
   border-bottom: 1px solid black;
 }
 
+
 .counter {
-  width: 200px;
+}
+
+.counter--colored {
+  background-color: lightgrey;
+}
+
+.counter__wrapper {
+  width: 250px;
   margin: 40px auto;
+}
+
+.counter__buttons {
+  display: flex;
+  justify-content: space-around;
 }
 
 .counter__value {
   font-size: 40px;
+
 }
+
+.counter__title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+
+.tabs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 50px auto 0;
+  padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.tabs .tab {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: relative;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.54);
+    transition: all 0.2s;
+}
+
+.tabs .tab:hover {
+    background-color: rgba(158, 158, 158, 0.1);
+}
+
+.tabs .tab.active {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.tabs .tab.active::after {
+    content: " ";
+    height: 2px;
+    width: 100%;
+    display: block;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    background-color: #6200ee;
+}
+
 
 @media (min-width: 768px) {
 .mdc-permanent-drawer {

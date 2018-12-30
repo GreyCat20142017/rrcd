@@ -14,8 +14,8 @@ import Login from './pages/Login';
 import Logout from './pages/Logout';
 import NotFound from './pages/NotFound';
 
-import Counter from './pages/Counter';
-
+import CounterContainer from './pages/CounterContainer';
+import TabsContainer from './pages/TabsContainer';
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class App extends Component {
 
   render() {
     const {topics, books} = this.props;
-      return (
+        return (
 
           <div className="app">
               <Toolbar user={this.state.user}/>
@@ -43,7 +43,8 @@ class App extends Component {
                 <Switch>
                   <Route exact path='/' component={Home} />
                   <Route path='/about' component={About} />
-                  <Route path='/counter' render={(props) => <Counter step={2}/>} />
+                  <Route path='/counter' render={(props) => <CounterContainer step={2}/>} />
+                  <Route path='/tabs' render={(props) => <TabsContainer/>} />
 
                   <Route path='/login' render={(props) => <Login onLogin={this.login} {...props}/>} />
                   <Route path='/logout' render={(props) => <Logout onLogout={this.logout} {...props}/>} />
@@ -62,3 +63,4 @@ class App extends Component {
 }
 
 export default withRouter(App);
+

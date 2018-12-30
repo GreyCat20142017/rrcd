@@ -8,6 +8,8 @@ import books from './data/books.json';
 import topics from './data/topics.json';
 
 import 'material-components-web/dist/material-components-web.css';
+
 import './index.css';
+
 
 ReactDOM.render(<Router><App books={books} topics={topics}/></Router>, document.getElementById('root'));

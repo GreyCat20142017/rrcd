@@ -19,7 +19,8 @@ function Toolbar({ user }) {
                           :
                           <ToolbarLink to="/login" className="mdc-tab">Войти</ToolbarLink>
                         }
-                        <ToolbarLink to="/counter" className="mdc-tab">Счетчик</ToolbarLink>
+                        <ToolbarLink to="/counter" className="mdc-tab">Счетчики (курс React-паттерны)</ToolbarLink>
+                        <ToolbarLink to="/tabs" className="mdc-tab">Tabs</ToolbarLink>
                     </nav>
                 </section>
             </div>

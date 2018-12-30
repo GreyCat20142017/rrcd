@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"coun",
+				"counterValue"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"c",
+				"controlledCounter"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"on",
+				"onCounterChange"
+			],
+			[
+				"co",
+				"controlledCounter"
+			],
+			[
+				"con",
+				"controlledCounter"
+			],
+			[
+				"ch",
+				"changeActive"
+			],
+			[
+				"a",
+				"activeTabIndex"
+			],
+			[
+				"ge",
+				"getCounterProps"
+			],
+			[
+				"more",
+				"moreAction"
+			],
+			[
+				"i",
+				"increment"
+			],
+			[
+				"de",
+				"decrement"
+			],
+			[
+				"Co",
+				"CounterRenderProps"
+			],
+			[
+				"d",
+				"decrement"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"R",
+				"Redirect"
+			],
+			[
+				"S",
+				"Sidenav"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"to",
+				"topic"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
 				"bo",
 				"border-bottom\tproperty"
 			],
@@ -16,28 +108,12 @@
 				"text-decoration-color\tproperty"
 			],
 			[
-				"flex",
-				"flex-direction\tproperty"
-			],
-			[
-				"R",
-				"Router"
-			],
-			[
-				"s",
-				"switchModalState"
-			],
-			[
 				"state",
 				"stateModalIsOpen"
 			],
 			[
 				"se",
 				"setState"
-			],
-			[
-				"co",
-				"completed"
 			],
 			[
 				"back",
@@ -56,10 +132,6 @@
 				"ReactCSSTransitionGroup"
 			],
 			[
-				"on",
-				"onEscClick"
-			],
-			[
 				"ref",
 				"refs"
 			],
@@ -72,10 +144,6 @@
 				"milliSeconds"
 			],
 			[
-				"con",
-				"console"
-			],
-			[
 				"new",
 				"newTitle"
 			],
@@ -84,28 +152,12 @@
 				"renderDisplay"
 			],
 			[
-				"ch",
-				"changeStatus"
-			],
-			[
 				"e",
 				"editing"
 			],
 			[
-				"de",
-				"default"
-			],
-			[
-				"c",
-				"current"
-			],
-			[
 				"get",
 				"getNextId"
-			],
-			[
-				"to",
-				"total"
 			],
 			[
 				"po",
@@ -142,18 +194,6 @@
 			[
 				"margin",
 				"margin-bottom\tproperty"
-			],
-			[
-				"in",
-				"indicator"
-			],
-			[
-				"d",
-				"direction"
-			],
-			[
-				"i",
-				"index"
 			],
 			[
 				"cu",
@@ -196,20 +236,12 @@
 				"heights"
 			],
 			[
-				"di",
-				"direction"
-			],
-			[
 				"ev",
 				"evtWheel"
 			],
 			[
 				"fo",
 				"forceUpdate"
-			],
-			[
-				"a",
-				"addEventListener"
 			],
 			[
 				"fu",
@@ -226,10 +258,6 @@
 			[
 				"text",
 				"text-align\tproperty"
-			],
-			[
-				"ba",
-				"background-position\tproperty"
 			],
 			[
 				"pad",
@@ -346,10 +374,6 @@
 			[
 				"M",
 				"MIN_RECTANGLE_LIMIT"
-			],
-			[
-				"ge",
-				"getMaxSquareWithHorse"
 			],
 			[
 				"hor",
@@ -490,30 +514,6 @@
 			[
 				"o",
 				"onMouseEnter"
-			],
-			[
-				"ove",
-				"overflow-y\tproperty"
-			],
-			[
-				"pos",
-				"position\tproperty"
-			],
-			[
-				"st",
-				"state"
-			],
-			[
-				"fil",
-				"filterStates"
-			],
-			[
-				"is",
-				"isFilterConjunction"
-			],
-			[
-				"por",
-				"projects"
 			]
 		]
 	},
@@ -523,7 +523,34 @@
 			"file": "src/App.jsx",
 			"settings":
 			{
-				"buffer_size": 1015,
+				"buffer_size": 2134,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pages/CounterContainer.jsx",
+			"settings":
+			{
+				"buffer_size": 5021,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Counter.jsx",
+			"settings":
+			{
+				"buffer_size": 845,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/CounterControlProps.jsx",
+			"settings":
+			{
+				"buffer_size": 1789,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +559,16 @@
 			"file": "src/index.css",
 			"settings":
 			{
-				"buffer_size": 1276,
+				"buffer_size": 3023,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pages/Logout.jsx",
+			"settings":
+			{
+				"buffer_size": 202,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,42 +577,7 @@
 			"file": "src/components/Toolbar.jsx",
 			"settings":
 			{
-				"buffer_size": 1239,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/ToolbarLink.jsx",
-			"settings":
-			{
-				"buffer_size": 201,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 564,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/index.js",
-			"settings":
-			{
-				"buffer_size": 236,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/index.html",
-			"settings":
-			{
-				"buffer_size": 550,
+				"buffer_size": 1442,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -634,13 +635,33 @@
 		"/D/git/react/codedojo-router/public",
 		"/D/git/react/codedojo-router/src",
 		"/D/git/react/codedojo-router/src/components",
+		"/D/git/react/codedojo-router/src/data",
 		"/D/git/react/codedojo-router/src/pages"
 	],
 	"file_history":
 	[
-		"/D/git/react/codedojo-router/src/App.css",
+		"/D/git/react/codedojo-router/src/components/CounterRenderPropsPropGetter.jsx",
+		"/D/git/react/codedojo-router/src/components/Tabs.jsx",
+		"/D/git/react/codedojo-router/src/pages/TabsContainer.jsx",
+		"/D/git/react/codedojo-router/src/components/CounterRenderPropsPropCollection.jsx",
+		"/D/git/react/codedojo-router/src/components/CounterRenderProps.jsx",
+		"/D/git/react/codedojo-router/public/app.css",
+		"/D/git/react/codedojo-router/src/index.js",
 		"/D/git/react/codedojo-router/src/index.css",
+		"/D/git/react/codedojo-router/src/components/Toolbar.jsx",
+		"/D/git/react/codedojo-router/src/pages/CounterContainer.jsx",
 		"/D/git/react/codedojo-router/public/index.html",
+		"/D/git/react/codedojo-router/src/components/Sidenav.jsx",
+		"/D/git/react/codedojo-router/src/indigo.css",
+		"/D/git/react/codedojo/public/index.html",
+		"/D/git/react/codedojo-router/src/components/Counter.jsx",
+		"/D/git/react/codedojo-router/src/components/PrivateRoute.jsx",
+		"/D/git/react/codedojo-router/package.json",
+		"/D/git/react/codedojo-router/src/components/ToolbarLink.jsx",
+		"/D/git/react/codedojo-router/src/pages/Books.jsx",
+		"/D/git/react/codedojo-router/src/pages/Book.jsx",
+		"/D/git/react/codedojo-router/src/components/Card.jsx",
+		"/D/git/react/codedojo-router/src/App.css",
 		"/D/git/react/codedojo-router/src/App.js",
 		"/D/Git/React/codedojo/src/components/Stopwatch.jsx",
 		"/D/Git/React/codedojo/src/components/Header.jsx",
@@ -746,26 +767,7 @@
 		"/C/CurrentSASS/ArtActive/sass/blocks/btn.scss",
 		"/C/CurrentSASS/ArtActive/sass/style.scss",
 		"/C/CurrentSASS/ArtActive/sass/variables.scss",
-		"/C/CurrentSASS/ArtActive/sass/common.scss",
-		"/C/CurrentSASS/ArtActive/sass/blocks/page.scss",
-		"/C/CurrentSASS/ArtActive/sass/blocks/header.scss",
-		"/C/CurrentSASS/ArtActive/sass/blocks/field.scss",
-		"/C/CurrentSASS/ArtActive/sass/blocks/form.scss",
-		"/D/Git/React/knight/src/constants.js",
-		"/C/Apache24/htdocs/PHP/second.html",
-		"/D/Git/React/knight/src/functions.js",
-		"/D/Git/React/knight/src/containers/BoardContainer.js",
-		"/D/Git/React/knight/src/reducers/index.js",
-		"/D/Git/React/knight/src/containers/InfoContainer.js",
-		"/D/Git/React/knight/src/components/Info.css",
-		"/D/Git/React/knight/src/components/Board.css",
-		"/D/Git/React/knight/README.md",
-		"/D/Git/React/knight/src/components/Info.jsx",
-		"/D/Git/React/knight/src/App.css",
-		"/D/Git/React/knight/src/components/Cell.jsx",
-		"/D/Git/React/knight/src/App.js",
-		"/D/Git/React/knight/src/actions/index.js",
-		"/D/Git/React/knight/src/index.js"
+		"/C/CurrentSASS/ArtActive/sass/common.scss"
 	],
 	"find":
 	{
@@ -784,6 +786,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".counter",
+			"font",
+			"color",
+			".mdc-list-item--active",
+			"\"",
+			"mdc-list-item__start-detail",
 			"activeClassName=\"mdc-tab--active\" ",
 			"NavLink",
 			"Link",
@@ -905,13 +913,7 @@
 			"className",
 			"stopped",
 			"bormo.speak",
-			"this.p",
-			"render",
-			"renderOnly",
-			"setState",
-			"{items: items",
-			"{itemts: items",
-			"items"
+			"this.p"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -919,6 +921,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			".controlledCounter",
+			"'",
 			"",
 			"ToolbarLink",
 			"NavLink",
@@ -1044,9 +1048,7 @@
 			"href=\"#\"",
 			"",
 			"<span class=\"catalog-item-price-currency\">руб.</span>\t",
-			"",
-			"<span class=\"catalog-item-price-currency visually-hidden\">руб.</span>\t",
-			"gllacy-filter-style"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1057,7 +1059,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1066,15 +1068,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1015,
+						"buffer_size": 2134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								907,
-								907
+								608,
+								608
+							],
+							[
+								636,
+								636
 							]
 						],
 						"settings":
@@ -1087,68 +1093,60 @@
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								368,
-								368
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 539.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/components/Toolbar.jsx",
+					"buffer": 1,
+					"file": "src/pages/CounterContainer.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1239,
+						"buffer_size": 5021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								824,
-								824
-							],
+								4773,
+								4773
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/Counter.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								948,
-								948
-							],
-							[
-								1067,
-								1067
+								802,
+								802
 							]
 						],
 						"settings":
@@ -1169,19 +1167,85 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/components/ToolbarLink.jsx",
+					"file": "src/components/CounterControlProps.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 201,
+						"buffer_size": 1789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								1076,
+								1076
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2031,
+								2031
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/pages/Logout.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
 							]
 						],
 						"settings":
@@ -1197,65 +1261,32 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 564,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/index.js",
+					"buffer": 6,
+					"file": "src/components/Toolbar.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 236,
+						"buffer_size": 1442,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								1442,
+								1442
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
@@ -1265,46 +1296,13 @@
 					},
 					"stack_index": 5,
 					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								203
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1349,7 +1347,7 @@
 	"project": "router.sublime-project",
 	"replace":
 	{
-		"height": 75.0
+		"height": 81.0
 	},
 	"save_all_on_build": true,
 	"select_file":
